@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kameron, serif;
+    color: #2E377F;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw; 
+    justify-content: center;
+    align-content: start;
+    grid-gap: 1vw;
+    background-color: #d9d9d9;
+}
+
+#menu img{
+    width: 12vw;
+}
+
+#logo img{
+    width: 10vw;
+    margin-left: 68vw;
+}
+.corpo{
+    background-color: #f3f3f3;
+    text-align: center;
+}
+#explicacao{
+    background-color: #d9d9d9;
+    margin:50px;
+}
+/*#conteudo p{
+   margin:10px 10px 10px 10px;
+}*/
+.beneficios{
+    display:flex;
+    
+}
+#video{
+    padding-right: 28vw;
+    padding-left: 28vw;
+    
+}
+p{
+    margin:10px;
+}
+@media only screen and (max-width: 650px){
+    iframe{
+        width:75vw;
+    }
+}
